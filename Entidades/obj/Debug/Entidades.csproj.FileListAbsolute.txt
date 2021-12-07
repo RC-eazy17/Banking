@@ -1,0 +1,12 @@
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\Entidades.dll
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\Entidades.pdb
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\obj\Debug\Entidades.dll
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\obj\Debug\Entidades.pdb
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafel\OneDrive\Documentos\ITLA\3-Programacion II\Proyecto Final\AppIBanking\Entidades\obj\Debug\Entidades.csproj.CopyComplete

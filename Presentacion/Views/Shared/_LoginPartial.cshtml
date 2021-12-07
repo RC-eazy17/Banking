@@ -1,0 +1,22 @@
+﻿@using Presentacion.Controllers;
+@if (Session["Nombre"] != null)
+{
+    using (Html.BeginForm("LogOut", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-nav ml-auto mt-2 mt-lg-0" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+            @Html.ActionLink(Session["Nombre"]  +  "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "nav-link" })
+        </li>
+        <li class="nav-item"><a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Salir</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li>@Html.ActionLink("Register", "Signup", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", @class = "nav-link" })</li>
+        <li>@Html.ActionLink("Log in", "LogIn", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "nav-link" })</li>
+    </ul>
+}

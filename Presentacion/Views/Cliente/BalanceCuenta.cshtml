@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Entidades.Cuenta>
+
+@{
+    ViewBag.Title = "BalanceCuenta";
+}
+
+<h2>Balance de cuenta</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NumCuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Balance)
+        </th>
+        <
+        <th>
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumCuenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Balance)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.IdCliente)
+        </td>
+        
+    </tr>
+}
+
+</table>
